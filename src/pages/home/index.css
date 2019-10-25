@@ -1,0 +1,9 @@
+.home {
+    width: 100%;
+}
+
+.home-tapBar {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}

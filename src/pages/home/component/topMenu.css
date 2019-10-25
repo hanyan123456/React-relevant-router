@@ -1,0 +1,35 @@
+.topMenu {
+    width: 100%;
+    height: 40px;
+    background: red;
+}
+
+.topMenu-header {
+    padding: 0 20px;
+    color: #fff;
+}
+
+.topMenu-header {
+    /* width: 100%; */
+    /* height: 30px;*/
+    display: flex;
+    overflow-x: auto;
+    /* overflow-x: scroll; */
+
+
+}
+
+.topMenu-header::-webkit-scrollbar {
+    display: none;
+}
+
+.topMenu-header li {
+    white-space: nowrap;
+    /* float: left; */
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 15px;
+    text-align: center;
+
+}
